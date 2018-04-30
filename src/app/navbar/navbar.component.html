@@ -1,0 +1,11 @@
+<form class="forma_Navbar"> 
+  <div class="div_Navbar">
+    <a class="a_LogoNavbar" [routerLink]="['/login']">TOP-PMS</a>
+  </div>
+  <div class="div_Navbar">
+    <button id="butt_nav" name="butt_nav" type="submit" class="button_Navbar">{{log}}</button>
+    <p id="user_nav" name="user_nav" class="user_Navbar">{{userService.currentUserName}}</p>
+    <a class="position_Navbar" [routerLink]="['/projects']">Projects</a>
+    <a class="position_Navbar" [routerLink]="['/tasks']">Tasks</a>
+  </div>
+</form>

@@ -1,0 +1,11 @@
+<h1>TOP-PMS</h1>
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <div class="form_Login">
+        <input type="text" id="log_log" name="log_log" class="log_pass_Login" placeholder="Login....." ngModel>
+        <input type="password" id="pass_log" name="pass_log" class="log_pass_Login" placeholder="Password....." ngModel>
+        <button type="submit" id="butt_log" name="butt_log" class="button_Login">Enter</button>
+    </div>
+    <a class="link_forgot_pass" href="#">
+      Forgot password
+    </a>
+</form>

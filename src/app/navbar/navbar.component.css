@@ -1,0 +1,48 @@
+.forma_Navbar{
+    background: rgb(30, 52, 70);
+    height: 80px;
+}
+
+.div_Navbar{
+    height: 40px;
+}
+
+.a_LogoNavbar{
+    position: absolute;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.button_Navbar{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin: 0px 10px;
+    text-align: center;
+    background: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.user_Navbar{
+    float: right;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.position_Navbar {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: pink;
+    display: inline-block;
+    text-decoration: none;
+}
